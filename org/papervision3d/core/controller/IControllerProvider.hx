@@ -1,0 +1,1 @@
+package org.papervision3d.core.controller {	/**	 * @author Tim Knip / floorplanner.com	 */	interface IControllerProvider 	{		/**		 * Gets all controlllers.		 */		function set controllers(value:Array):Void;				function get controllers():Array<Dynamic>;	}

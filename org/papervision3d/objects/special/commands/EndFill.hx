@@ -1,0 +1,1 @@
+package org.papervision3d.objects.special.commands {	import org.papervision3d.objects.special.commands.IVectorShape;	import flash.display.Graphics;			/**	 * @author Mark Barcinski	 */	class EndFill implements IVectorShape {		public function draw(graphics:Graphics, prevDrawn:Bool):Bool {			return prevDrawn;		}	}
